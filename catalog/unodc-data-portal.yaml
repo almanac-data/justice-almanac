@@ -1,0 +1,47 @@
+id: unodc-data-portal
+type: dataset
+title: UNODC Data Portal
+description: |
+  The UN Office on Drugs and Crime's statistical portal covering intentional homicide, trafficking, prison populations, corruption, and access-to-justice indicators across UN member states.
+publisher: United Nations Office on Drugs and Crime (UNODC)
+jurisdiction:
+  scope: multilateral
+  country: null
+topics:
+- homicide
+- trafficking
+- prisons
+- corruption
+- justice
+- global
+source:
+  canonical_url: https://dataunodc.un.org/
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- xlsx
+status: live
+status_since: '2026-07-01'
+status_source: curator
+observed:
+  checked: '2026-07-01'
+  reachable: true
+  http_status: 200
+  final_url: https://data.unodc.org
+  redirect_chain:
+  - https://data.unodc.org
+  fingerprint_result: no-baseline
+coverage:
+  spatial: global (UN member states)
+  temporal: 1990-present (indicator-dependent)
+  cadence: annual
+license: CC-BY-3.0 IGO (UN terms of use)
+attribution: UNODC, Data Portal
+notes: |
+  Verified reachable this session (HTTP 200, redirects to data.unodc.org). Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.

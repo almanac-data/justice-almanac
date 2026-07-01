@@ -7,47 +7,60 @@
   },
   "entries": [
     {
-      "id": "example-dataset",
+      "id": "unodc-data-portal",
       "type": "dataset",
-      "title": "Example Dataset (replace this with a real entry)",
-      "description": "A placeholder catalog entry so the index builds and CI passes on a fresh template. Delete this file once you have added your first real dataset.\n",
-      "publisher": "Example Agency",
+      "title": "UNODC Data Portal",
+      "description": "The UN Office on Drugs and Crime's statistical portal covering intentional homicide, trafficking, prison populations, corruption, and access-to-justice indicators across UN member states.\n",
+      "publisher": "United Nations Office on Drugs and Crime (UNODC)",
+      "jurisdiction": {
+        "scope": "multilateral",
+        "country": null
+      },
       "topics": [
-        "example"
+        "homicide",
+        "trafficking",
+        "prisons",
+        "corruption",
+        "justice",
+        "global"
       ],
       "source": {
-        "canonical_url": "https://example.org"
+        "canonical_url": "https://dataunodc.un.org/"
       },
       "access": {
         "method": [
-          "web"
+          "web",
+          "bulk"
         ],
         "auth_required": false,
         "auth_note": null,
         "rate_limit": null
       },
       "format": [
-        "html"
+        "csv",
+        "xlsx"
       ],
       "status": "live",
-      "status_since": "2026-06-29",
-      "status_source": "auto",
+      "status_since": "2026-07-01",
+      "status_source": "curator",
       "observed": {
-        "checked": "2026-06-29",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null,
-        "redirect_chain": [],
+        "checked": "2026-07-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://data.unodc.org",
+        "redirect_chain": [
+          "https://data.unodc.org"
+        ],
         "fingerprint_result": "no-baseline"
       },
       "coverage": {
-        "spatial": "global",
-        "temporal": "n/a",
-        "cadence": "static"
+        "spatial": "global (UN member states)",
+        "temporal": "1990-present (indicator-dependent)",
+        "cadence": "annual"
       },
-      "license": "CC0-1.0",
-      "attribution": "Example Agency",
-      "notes": "This is a template stub. See SETUP.md for how to stand up your own almanac vertical, then replace this entry with real datasets.\n"
+      "license": "CC-BY-3.0 IGO (UN terms of use)",
+      "attribution": "UNODC, Data Portal",
+      "notes": "Verified reachable this session (HTTP 200, redirects to data.unodc.org). Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.\n"
     }
   ]
 }
