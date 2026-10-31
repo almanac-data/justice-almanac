@@ -32,6 +32,13 @@ observed:
   final_url: https://vault.fbi.gov/records-regarding-the-review-of-the-investigative-holdings-related-to-jeffrey-epstein
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261023141932/https://vault.fbi.gov/records-regarding-the-review-of-the-investigative-holdings-related-to-jeffrey-epstein
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-10-23'
+  notes: Wayback capture made while the resource was live.
 coverage:
   spatial: United States
   temporal: not stated

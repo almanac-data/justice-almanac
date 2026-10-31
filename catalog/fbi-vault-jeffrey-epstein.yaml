@@ -32,6 +32,13 @@ observed:
   final_url: https://vault.fbi.gov/jeffrey-epstein
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261019164522/https://vault.fbi.gov/jeffrey-epstein
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-10-19'
+  notes: Wayback capture made while the resource was live.
 coverage:
   spatial: United States
   temporal: not stated

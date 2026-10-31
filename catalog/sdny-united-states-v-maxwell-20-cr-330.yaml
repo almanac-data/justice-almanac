@@ -33,6 +33,13 @@ observed:
   final_url: https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20260108111209/https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-01-08'
+  notes: Wayback capture made while the resource was live.
 coverage:
   spatial: United States (S.D.N.Y., federal criminal case)
   temporal: docket filed 2020-06-29; filings through 2026

@@ -29,6 +29,14 @@ format:
 status: live
 status_since: '2026-10-31'
 status_source: curator
+fingerprint:
+  sha256: null
+  etag: null
+  content_length: null
+  captured: '2026-10-31'
+  algo: sha256
+  lead_hash: 11d5d709cfb79d98308544a77432b726bc8b8e90808d96c303a7bdcd571104d6
+  lead_algo: sha256
 observed:
   checked: '2026-10-31'
   reachable: true
@@ -36,6 +44,13 @@ observed:
   final_url: https://www.justice.gov/epstein/doj-disclosures
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261029004148/https://www.justice.gov/epstein/doj-disclosures
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-10-29'
+  notes: Wayback capture made while the resource was live.
 coverage:
   spatial: United States (federal courts in S.D.N.Y., S.D. Fla., D.N.H., 2d Cir. and U.S. Supreme Court; Florida 15th Judicial Circuit and Florida Supreme Court; U.S. Virgin Islands Superior Court)
   temporal: not stated; the court-record captions run from 2006 (Fla. 15th Cir. Ct.) to 2025 (S.D. Fla. and U.S. Supreme Court)
