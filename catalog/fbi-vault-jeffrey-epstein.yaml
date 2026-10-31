@@ -1,0 +1,43 @@
+id: fbi-vault-jeffrey-epstein
+type: document
+title: 'FBI Records: The Vault — Jeffrey Epstein'
+description: |
+  The FBI's FOIA Library (The Vault) collection titled "Jeffrey Epstein": 22 PDF parts of FBI records released under the Freedom of Information Act and filed under "Frequently Requested".
+publisher: Federal Bureau of Investigation (FBI)
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- foia
+- fbi-records
+- federal-records-release
+collection: epstein-records
+source:
+  canonical_url: https://vault.fbi.gov/jeffrey-epstein
+access:
+  method:
+  - web
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- pdf
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: United States
+  temporal: not stated
+  cadence: irregular
+license: public-domain (US Gov work) for FBI-authored records (17 U.S.C. 105); FBI site terms not read; third-party material in the files not covered
+attribution: 'Federal Bureau of Investigation, FBI Records: The Vault, Jeffrey Epstein'
+notes: |
+  Human-verified 2026-10-31: HTTP 200 (headless Chromium; curl with a browser User-Agent gets HTTP 403, so reachability.headless is needed). The collection page "Jeffrey Epstein" lists "Jeffrey Epstein Part 01" through "Jeffrey Epstein Part 22 (Final)" and is "Filed under: Frequently Requested". Part 01 is "PDF document, 2600 kB", 44 pages. The "(Final)" label is on the last part only, and the Vault doesn't describe the collection as complete, so status is live, not frozen.
+  Authority: FOIA. The Vault describes itself as the FBI's FOIA Library and links to "Explanation of FOI/PA Exemptions". The Vault disclaimer says some older files "may contain processing procedures that are not compliant with current FOIA processing standards". Redactions are FOIA/Privacy Act exemptions applied per page. No collection-specific redaction statement is shown.
+  Release date and "last updated": not shown on the collection page, and not verified. A second, separate Vault collection exists: see fbi-vault-epstein-investigative-holdings-review. DOJ's Epstein Library also lists an FBI FOIA set (https://www.justice.gov/epstein/doj-disclosures/foia-federal-bureau-investigation-fbi). Whether that set is the same material was not checked.
+  Licence checked 2026-10-31: the FBI legal-notices page (https://www.fbi.gov/legalnotices) loaded, but no copyright sentence could be extracted from it. The public-domain claim rests on 17 U.S.C. 105 for records the FBI itself created, which is medium confidence. Documents in the files authored by others are not US Gov works. Not checked: file contents and total page count.
