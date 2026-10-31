@@ -1,9 +1,9 @@
 {
   "name": "Justice Almanac",
   "description": "An open, versioned index of public justice and criminal-justice data.",
-  "count": 11,
+  "count": 12,
   "by_status": {
-    "live": 11
+    "live": 12
   },
   "entries": [
     {
@@ -255,6 +255,54 @@
       "license": "unverified — mixed; DOJ-authored records are public domain per DOJ site policy, but the library also holds court filings by parties, third-party and publicly submitted material that are not US Gov works",
       "attribution": "U.S. Department of Justice, Epstein Library",
       "notes": "Human-verified 2026-10-31: HTTP 200 (headless Chromium; curl gets an Akamai bot-check interstitial, so reachability.headless is needed). The page is titled \"Epstein Library\" and says: \"This site houses materials responsive under the Epstein Files Transparency Act. This site will be updated if additional documents are identified for release.\" It shows \"Last Updated: September 11, 2026\". The page has a \"Search Full Epstein Library\" box and links to \"DOJ Disclosures, Including Disclosures Under the Epstein Files Transparency Act (H.R. 4405)\" (see doj-epstein-files-transparency-act-disclosures) and to \"House Committee on Oversight and Government Reform Disclosures\" (see house-oversight-epstein-doj-records). A search caveat says portions \"may not be electronically searchable or may produce unreliable search results\".\nLegal authority: the Epstein Files Transparency Act, cited on the page as H.R. 4405 and in DOJ's Attorney Review Protocol memo (4 Jan 2026) as \"Pub. L. 119-38, 139 Stat. 656\". DOJ's 19 Dec 2025 letter to Congress says it was signed on 19 Nov 2025. Release dates, per DOJ letters and press release: 19 Dec 2025 (\"hundreds of thousands of pages\"), and 30 Jan 2026, when DOJ published \"over 3 million additional pages\", including \"more than 2,000 videos and 180,000 images\", for a total of \"nearly 3.5 million pages\" (press release 26-84). A Section 3 report to Congress followed on 14 Feb 2026. DOJ also says the review process involved court orders unsealing grand-jury and protected material in S.D. Fla. and S.D.N.Y.\nRedaction policy, quoted from the page: \"all reasonable efforts have been made to review and redact personal information pertaining to victims, other private individuals, and protect sensitive materials from disclosure ... this website may nevertheless contain information that inadvertently includes non-public personally identifiable information\". Errors are reported to EFTA@usdoj.gov. The 19 Dec 2025 letter lists the Act's withholding categories: victim PII, CSAM, active investigations, depictions of death or injury, and classified information. Because DOJ says it will correct inadvertent disclosures, files may be re-redacted or withdrawn in place.\nLicence checked 2026-10-31: https://www.justice.gov/legalpolicies says \"Unless otherwise indicated, information on Department of Justice websites is in the public domain\" but also \"If a source other than the Department of Justice or other federal government agency is indicated ... permission to copy these materials must be obtained from the original source.\" This is a site-wide policy, not a data-specific licence, and much of the library is non-DOJ material. Bulk download, total file count and per-file formats beyond the PDF, MP4 and WAV files I saw were not checked.\n"
+    },
+    {
+      "id": "doj-oig-bop-epstein-custody-report-23-085",
+      "type": "document",
+      "title": "DOJ OIG Report 23-085: Investigation and Review of the Federal Bureau of Prisons' Custody, Care, and Supervision of Jeffrey Epstein at MCC New York",
+      "description": "The DOJ Office of the Inspector General's investigation and review report on the Federal Bureau of Prisons' custody, care and supervision of Jeffrey Epstein at the Metropolitan Correctional Center in New York. The report page also tracks the status of each OIG recommendation.\n",
+      "publisher": "U.S. Department of Justice, Office of the Inspector General (OIG)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "inspector-general",
+        "federal-prisons",
+        "custody-oversight"
+      ],
+      "collection": "epstein-records",
+      "source": {
+        "canonical_url": "https://oig.justice.gov/reports/investigation-and-review-federal-bureau-prisons-custody-care-and-supervision-jeffrey"
+      },
+      "access": {
+        "method": [
+          "web"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "pdf"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (MCC New York, New York)",
+        "temporal": "2019 (period of custody reviewed); report posted 2023-06-27",
+        "cadence": "irregular"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Department of Justice, Office of the Inspector General, Report 23-085",
+      "notes": "Human-verified 2026-10-31: HTTP 200 (plain curl with a browser User-Agent). The page shows \"Posted Date June 27, 2023\", \"Report Number 23-085\", \"Component Federal Bureau of Prisons\", \"Report Type Investigation\", and links a press release of the same date. The report PDF (https://oig.justice.gov/sites/default/files/reports/23-085.pdf) returned HTTP 200 application/pdf, 5,975,538 bytes, 128 pages. The page lists recommendations 1, 2, 4, 5, 6 and 8 as \"Resolved\". Those statuses can change, which is why this is live rather than frozen even though the report itself is static.\nAuthority: OIG's statutory oversight of DOJ components. The page does not state a specific authority, and none was checked. Redaction: none stated on the page; the PDF was not reviewed for redactions.\nLicence checked 2026-10-31: no licence is stated on the OIG page. OIG is a DOJ component, so the report is a federal government work (17 U.S.C. 105) and falls under DOJ's site policy (https://www.justice.gov/legalpolicies: \"Unless otherwise indicated, information on Department of Justice websites is in the public domain\"). High confidence.\n"
     },
     {
       "id": "eurostat-crime-and-criminal-justice-database",
