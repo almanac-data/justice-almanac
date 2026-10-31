@@ -1,9 +1,9 @@
 {
   "name": "Justice Almanac",
   "description": "An open, versioned index of public justice and criminal-justice data.",
-  "count": 12,
+  "count": 13,
   "by_status": {
-    "live": 12
+    "live": 13
   },
   "entries": [
     {
@@ -303,6 +303,55 @@
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Department of Justice, Office of the Inspector General, Report 23-085",
       "notes": "Human-verified 2026-10-31: HTTP 200 (plain curl with a browser User-Agent). The page shows \"Posted Date June 27, 2023\", \"Report Number 23-085\", \"Component Federal Bureau of Prisons\", \"Report Type Investigation\", and links a press release of the same date. The report PDF (https://oig.justice.gov/sites/default/files/reports/23-085.pdf) returned HTTP 200 application/pdf, 5,975,538 bytes, 128 pages. The page lists recommendations 1, 2, 4, 5, 6 and 8 as \"Resolved\". Those statuses can change, which is why this is live rather than frozen even though the report itself is static.\nAuthority: OIG's statutory oversight of DOJ components. The page does not state a specific authority, and none was checked. Redaction: none stated on the page; the PDF was not reviewed for redactions.\nLicence checked 2026-10-31: no licence is stated on the OIG page. OIG is a DOJ component, so the report is a federal government work (17 U.S.C. 105) and falls under DOJ's site policy (https://www.justice.gov/legalpolicies: \"Unless otherwise indicated, information on Department of Justice websites is in the public domain\"). High confidence.\n"
+    },
+    {
+      "id": "doj-opr-epstein-npa-report-executive-summary",
+      "type": "document",
+      "title": "DOJ OPR: Executive Summary of Report on the S.D. Fla. Resolution of Its 2006-2008 Epstein Investigation (November 2020)",
+      "description": "The public executive summary of the DOJ Office of Professional Responsibility's investigation into the U.S. Attorney's Office for the Southern District of Florida's resolution of its 2006-2008 federal criminal investigation of Jeffrey Epstein, including the 2007 non-prosecution agreement, and the office's interactions with victims.\n",
+      "publisher": "U.S. Department of Justice, Office of Professional Responsibility (OPR)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "professional-responsibility",
+        "non-prosecution-agreement",
+        "crime-victims-rights",
+        "federal-prosecution"
+      ],
+      "collection": "epstein-records",
+      "source": {
+        "canonical_url": "https://www.justice.gov/opr/page/file/1336471/dl"
+      },
+      "access": {
+        "method": [
+          "web"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "pdf"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (Southern District of Florida)",
+        "temporal": "2006-2008 investigation (report dated November 2020)",
+        "cadence": "irregular"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Department of Justice, Office of Professional Responsibility, Executive Summary of Report (November 2020)",
+      "notes": "Human-verified 2026-10-31: HTTP 200 application/pdf, 289,140 bytes, Last-Modified \"Thu, 12 Nov 2020\" (headless Chromium session; justice.gov serves curl a bot-check page). The old /download URL redirects to /dl?inline=. The PDF is 13 pages, headed \"EXECUTIVE SUMMARY OF REPORT ... Investigation into the U.S. Attorney's Office for the Southern District of Florida's Resolution of Its 2006-2008 Federal Criminal Investigation of Jeffrey Epstein and Its Interactions with Victims during the Investigation ... November 2020\".\nRelease: 12 Nov 2020. DOJ's statement of that date (https://www.justice.gov/archives/opa/pr/statement-doj-office-professional-responsibility-report-jeffrey-epstein-2006-2008, press release 20-1227, \"Updated February 5, 2025\") says the executive summary \"was released today to affected victims\" and is on the DOJ website. It adds: \"The Privacy Act prohibits the Department from releasing the full report publicly, but permits the report to be disclosed upon request to a congressional committee\". So only the summary is public, and the full report is not cataloged.\nStatus: live, not frozen. The release is a one-off dated document, but neither the PDF nor DOJ's statement calls it \"final\" or \"complete\".\nRedaction: the summary names the then-U.S. Attorney, but no victims. No separate redaction statement is shown. Court-filed copies of OPR material also appear in DOJ's Epstein Library under United States v. Maxwell, No. 1:20-cr-00330; those were not checked.\nLicence checked 2026-10-31: DOJ-authored, and https://www.justice.gov/legalpolicies says \"Unless otherwise indicated, information on Department of Justice websites is in the public domain\". High confidence.\n"
     },
     {
       "id": "eurostat-crime-and-criminal-justice-database",
