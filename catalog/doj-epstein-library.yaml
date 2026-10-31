@@ -1,0 +1,46 @@
+id: doj-epstein-library
+type: document
+title: U.S. Department of Justice Epstein Library
+description: |
+  The Department of Justice's public library of Epstein-related records, published under the Epstein Files Transparency Act (Pub. L. 119-38). It is the landing page and full-text search for DOJ's disclosures, and it links to the House Oversight Committee's disclosures.
+publisher: U.S. Department of Justice
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- epstein-files-transparency-act
+- federal-records-release
+- criminal-investigations
+- victim-privacy-redaction
+collection: epstein-records
+source:
+  canonical_url: https://www.justice.gov/epstein
+access:
+  method:
+  - web
+  auth_required: false
+  auth_note: Age-confirmation prompt ("Are you 18 years of age or older?") before viewing; no account needed.
+  rate_limit: null
+format:
+- pdf
+- mp4
+- wav
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: United States (federal investigations and prosecutions; records from New York, Florida and other jurisdictions)
+  temporal: not stated on the page (DOJ's 30 Jan 2026 letter describes the material as spanning "a period of over twenty years")
+  cadence: irregular
+license: unverified — mixed; DOJ-authored records are public domain per DOJ site policy, but the library also holds court filings by parties, third-party and publicly submitted material that are not US Gov works
+attribution: U.S. Department of Justice, Epstein Library
+notes: |
+  Human-verified 2026-10-31: HTTP 200 (headless Chromium; curl gets an Akamai bot-check interstitial, so reachability.headless is needed). The page is titled "Epstein Library" and says: "This site houses materials responsive under the Epstein Files Transparency Act. This site will be updated if additional documents are identified for release." It shows "Last Updated: September 11, 2026". The page has a "Search Full Epstein Library" box and links to "DOJ Disclosures, Including Disclosures Under the Epstein Files Transparency Act (H.R. 4405)" (see doj-epstein-files-transparency-act-disclosures) and to "House Committee on Oversight and Government Reform Disclosures" (see house-oversight-epstein-doj-records). A search caveat says portions "may not be electronically searchable or may produce unreliable search results".
+  Legal authority: the Epstein Files Transparency Act, cited on the page as H.R. 4405 and in DOJ's Attorney Review Protocol memo (4 Jan 2026) as "Pub. L. 119-38, 139 Stat. 656". DOJ's 19 Dec 2025 letter to Congress says it was signed on 19 Nov 2025. Release dates, per DOJ letters and press release: 19 Dec 2025 ("hundreds of thousands of pages"), and 30 Jan 2026, when DOJ published "over 3 million additional pages", including "more than 2,000 videos and 180,000 images", for a total of "nearly 3.5 million pages" (press release 26-84). A Section 3 report to Congress followed on 14 Feb 2026. DOJ also says the review process involved court orders unsealing grand-jury and protected material in S.D. Fla. and S.D.N.Y.
+  Redaction policy, quoted from the page: "all reasonable efforts have been made to review and redact personal information pertaining to victims, other private individuals, and protect sensitive materials from disclosure ... this website may nevertheless contain information that inadvertently includes non-public personally identifiable information". Errors are reported to EFTA@usdoj.gov. The 19 Dec 2025 letter lists the Act's withholding categories: victim PII, CSAM, active investigations, depictions of death or injury, and classified information. Because DOJ says it will correct inadvertent disclosures, files may be re-redacted or withdrawn in place.
+  Licence checked 2026-10-31: https://www.justice.gov/legalpolicies says "Unless otherwise indicated, information on Department of Justice websites is in the public domain" but also "If a source other than the Department of Justice or other federal government agency is indicated ... permission to copy these materials must be obtained from the original source." This is a site-wide policy, not a data-specific licence, and much of the library is non-DOJ material. Bulk download, total file count and per-file formats beyond the PDF, MP4 and WAV files I saw were not checked.
