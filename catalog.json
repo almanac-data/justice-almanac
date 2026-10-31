@@ -1,9 +1,9 @@
 {
   "name": "Justice Almanac",
   "description": "An open, versioned index of public justice and criminal-justice data.",
-  "count": 9,
+  "count": 10,
   "by_status": {
-    "live": 9
+    "live": 10
   },
   "entries": [
     {
@@ -152,6 +152,58 @@
       "license": "public-domain (US Gov work) for the DOJ press release and letter; unverified for the attached records, which include material originally produced in U.S. v. Maxwell",
       "attribution": "U.S. Department of Justice, Office of Public Affairs, press release 25-201",
       "notes": "Human-verified 2026-10-31: HTTP 200 (headless Chromium; justice.gov serves curl a bot-check interstitial). The release is titled \"Attorney General Pamela Bondi Releases First Phase of Declassified Epstein Files\" and dated Thursday, February 27, 2025, as press release number 25-201 (\"Updated February 27, 2025\"). It says the Attorney General, \"in conjunction with the Federal Bureau of Investigation (FBI), declassified and publicly released files\", and that DOJ \"intends to release the remaining documents upon review and redaction to protect the identities of Epstein's victims\".\nLinked files (all on justice.gov/ag/media/<id>/dl):\n- the AG's letter (1391331)\n- \"A. Evidence List\" (1391271)\n- \"B. Flight Log_Released in U.S. v. Maxwell\" plus Parts 1-6\n- \"C. Contact Book_Redacted\" (1391321, about 19.4 MB)\n- \"D. Masseuse List_Redacted\" (1391326)\nSampled files returned HTTP 200 application/pdf, with Last-Modified dates of 28 Feb 2025.\nThe stated authority is declassification by the AG with the FBI. This release predates the Epstein Files Transparency Act. The Epstein Library now also lists this material as \"First Phase of Declassified Epstein Files\" under DOJ Disclosures (https://www.justice.gov/epstein/doj-disclosures/first-phase-declassified-epstein-files), as four EFTA-renumbered PDFs (EFTA02846457 to EFTA02846673). The original press-release attachments and the library copies could diverge, so both URLs are worth watching.\nRedaction: two attachments are labelled \"_Redacted\". No further redaction policy is stated on the release page.\nLicence checked 2026-10-31: https://www.justice.gov/legalpolicies says \"Unless otherwise indicated, information on Department of Justice websites is in the public domain\". That is site-wide, and the attached records were not created by DOJ itself, so their status is unverified. I did not check the contents of the attachments.\n"
+    },
+    {
+      "id": "doj-epstein-files-transparency-act-disclosures",
+      "type": "document",
+      "title": "DOJ Disclosures under the Epstein Files Transparency Act (Data Sets 1-12, Court Records, FOIA)",
+      "description": "The Department of Justice index of its Epstein-related productions: twelve EFTA-numbered data sets, DOJ copies of court records from federal and state cases, FOIA releases, prior DOJ disclosures and related documentation such as letters to Congress and the attorney review protocol.\n",
+      "publisher": "U.S. Department of Justice",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "epstein-files-transparency-act",
+        "federal-records-release",
+        "court-records",
+        "foia",
+        "victim-privacy-redaction"
+      ],
+      "collection": "epstein-records",
+      "source": {
+        "canonical_url": "https://www.justice.gov/epstein/doj-disclosures"
+      },
+      "access": {
+        "method": [
+          "web"
+        ],
+        "auth_required": false,
+        "auth_note": "Age-confirmation prompt before viewing; no account needed.",
+        "rate_limit": null
+      },
+      "format": [
+        "pdf",
+        "mp4",
+        "wav"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (federal courts in S.D.N.Y., S.D. Fla., D.N.H., 2d Cir. and U.S. Supreme Court; Florida 15th Judicial Circuit and Florida Supreme Court; U.S. Virgin Islands Superior Court)",
+        "temporal": "not stated; the court-record captions run from 2006 (Fla. 15th Cir. Ct.) to 2025 (S.D. Fla. and U.S. Supreme Court)",
+        "cadence": "irregular"
+      },
+      "license": "unverified — mixed; DOJ-authored records are public domain per DOJ site policy; court filings by parties and third-party material are not US Gov works",
+      "attribution": "U.S. Department of Justice, Epstein Library, DOJ Disclosures",
+      "notes": "Human-verified 2026-10-31: HTTP 200 (headless Chromium; curl gets a bot-check interstitial). The page has sections \"Epstein Files Transparency Act (H.R. 4405)\", \"Court Records\", \"Freedom of Information Act (FOIA)\", \"Prior DOJ Disclosures\" and \"Related Documentation\".\n- EFTA section: links \"Data Set 1 Files\" to \"Data Set 12 Files\" (for example https://www.justice.gov/epstein/doj-disclosures/data-set-1-files). These are paginated lists of EFTA-numbered PDFs; Data Set 1 starts at EFTA00000001.pdf.\n- Court Records: about 55 per-case pages, including United States v. Maxwell, No. 1:20-cr-00330 (S.D.N.Y.), [redacted] v. Maxwell, No. 1:15-cv-07433 (S.D.N.Y.), In re: Grand Jury 05-02 (WPB) & 07-103 (WPB), No. 9:25-mc-80920 (S.D. Fla. 2025), State of Florida v. Epstein (Fla. 15th Cir. Ct. 2006 and 2008), and CA Florida Holdings, LLC, Publisher of the Palm Beach Post v. Aronberg, No. 50-2019-CA-014681 (Fla. 15th Cir. Ct. 2019).\n- FOIA: CBP, FBI, BOP and Florida.\n- Prior DOJ Disclosures: \"First Phase of Declassified Epstein Files\", \"BOP Video Footage\" (MP4), \"Maxwell Proffer\" (WAV and PDF), and \"Memoranda and Correspondence\".\n- Related Documentation: the Attorney Review Protocol memo (4 Jan 2026), press release 26-84, and letters to Congress dated 19 Dec 2025, 30 Jan 2026 and 14 Feb 2026.\nLegal authority: Epstein Files Transparency Act, Pub. L. 119-38, 139 Stat. 656, signed 19 Nov 2025. DOJ's 19 Dec 2025 letter also cites court orders in S.D. Fla. and S.D.N.Y. authorising production of material previously under protective orders or grand-jury secrecy. Releases: 19 Dec 2025, and 30 Jan 2026 (DOJ: \"nearly 3.5 million pages\" in total).\nRedaction policy, quoted from the page: \"Redactions of victim names and other identifying information have been applied. In audio files, redactions of victim names and other identifying information have been implemented through the use of a steady, solid tone.\" Press release 26-84 adds that S.D.N.Y. used \"an additional review protocol to ensure compliance with a Court order\". The page shows no \"last updated\" date; the parent library page shows \"Last Updated: September 11, 2026\". The court-record pages are DOJ's copies, and DOJ redacts some case captions (for example \"[redacted] v. Maxwell\"). The court's own docket remains the canonical record for each case.\nLicence checked 2026-10-31: https://www.justice.gov/legalpolicies says \"Unless otherwise indicated, information on Department of Justice websites is in the public domain\", with the caveat that material from other sources needs the source's permission. That is a site-wide policy, not data-specific. Not checked: per-data-set file counts or sizes, whether zipped bulk downloads exist, and the contents of individual files.\n"
     },
     {
       "id": "eurostat-crime-and-criminal-justice-database",
