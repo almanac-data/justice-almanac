@@ -1,9 +1,9 @@
 {
   "name": "Justice Almanac",
   "description": "An open, versioned index of public justice and criminal-justice data.",
-  "count": 10,
+  "count": 11,
   "by_status": {
-    "live": 10
+    "live": 11
   },
   "entries": [
     {
@@ -204,6 +204,57 @@
       "license": "unverified — mixed; DOJ-authored records are public domain per DOJ site policy; court filings by parties and third-party material are not US Gov works",
       "attribution": "U.S. Department of Justice, Epstein Library, DOJ Disclosures",
       "notes": "Human-verified 2026-10-31: HTTP 200 (headless Chromium; curl gets a bot-check interstitial). The page has sections \"Epstein Files Transparency Act (H.R. 4405)\", \"Court Records\", \"Freedom of Information Act (FOIA)\", \"Prior DOJ Disclosures\" and \"Related Documentation\".\n- EFTA section: links \"Data Set 1 Files\" to \"Data Set 12 Files\" (for example https://www.justice.gov/epstein/doj-disclosures/data-set-1-files). These are paginated lists of EFTA-numbered PDFs; Data Set 1 starts at EFTA00000001.pdf.\n- Court Records: about 55 per-case pages, including United States v. Maxwell, No. 1:20-cr-00330 (S.D.N.Y.), [redacted] v. Maxwell, No. 1:15-cv-07433 (S.D.N.Y.), In re: Grand Jury 05-02 (WPB) & 07-103 (WPB), No. 9:25-mc-80920 (S.D. Fla. 2025), State of Florida v. Epstein (Fla. 15th Cir. Ct. 2006 and 2008), and CA Florida Holdings, LLC, Publisher of the Palm Beach Post v. Aronberg, No. 50-2019-CA-014681 (Fla. 15th Cir. Ct. 2019).\n- FOIA: CBP, FBI, BOP and Florida.\n- Prior DOJ Disclosures: \"First Phase of Declassified Epstein Files\", \"BOP Video Footage\" (MP4), \"Maxwell Proffer\" (WAV and PDF), and \"Memoranda and Correspondence\".\n- Related Documentation: the Attorney Review Protocol memo (4 Jan 2026), press release 26-84, and letters to Congress dated 19 Dec 2025, 30 Jan 2026 and 14 Feb 2026.\nLegal authority: Epstein Files Transparency Act, Pub. L. 119-38, 139 Stat. 656, signed 19 Nov 2025. DOJ's 19 Dec 2025 letter also cites court orders in S.D. Fla. and S.D.N.Y. authorising production of material previously under protective orders or grand-jury secrecy. Releases: 19 Dec 2025, and 30 Jan 2026 (DOJ: \"nearly 3.5 million pages\" in total).\nRedaction policy, quoted from the page: \"Redactions of victim names and other identifying information have been applied. In audio files, redactions of victim names and other identifying information have been implemented through the use of a steady, solid tone.\" Press release 26-84 adds that S.D.N.Y. used \"an additional review protocol to ensure compliance with a Court order\". The page shows no \"last updated\" date; the parent library page shows \"Last Updated: September 11, 2026\". The court-record pages are DOJ's copies, and DOJ redacts some case captions (for example \"[redacted] v. Maxwell\"). The court's own docket remains the canonical record for each case.\nLicence checked 2026-10-31: https://www.justice.gov/legalpolicies says \"Unless otherwise indicated, information on Department of Justice websites is in the public domain\", with the caveat that material from other sources needs the source's permission. That is a site-wide policy, not data-specific. Not checked: per-data-set file counts or sizes, whether zipped bulk downloads exist, and the contents of individual files.\n"
+    },
+    {
+      "id": "doj-epstein-library",
+      "type": "document",
+      "title": "U.S. Department of Justice Epstein Library",
+      "description": "The Department of Justice's public library of Epstein-related records, published under the Epstein Files Transparency Act (Pub. L. 119-38). It is the landing page and full-text search for DOJ's disclosures, and it links to the House Oversight Committee's disclosures.\n",
+      "publisher": "U.S. Department of Justice",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "epstein-files-transparency-act",
+        "federal-records-release",
+        "criminal-investigations",
+        "victim-privacy-redaction"
+      ],
+      "collection": "epstein-records",
+      "source": {
+        "canonical_url": "https://www.justice.gov/epstein"
+      },
+      "access": {
+        "method": [
+          "web"
+        ],
+        "auth_required": false,
+        "auth_note": "Age-confirmation prompt (\"Are you 18 years of age or older?\") before viewing; no account needed.",
+        "rate_limit": null
+      },
+      "format": [
+        "pdf",
+        "mp4",
+        "wav"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (federal investigations and prosecutions; records from New York, Florida and other jurisdictions)",
+        "temporal": "not stated on the page (DOJ's 30 Jan 2026 letter describes the material as spanning \"a period of over twenty years\")",
+        "cadence": "irregular"
+      },
+      "license": "unverified — mixed; DOJ-authored records are public domain per DOJ site policy, but the library also holds court filings by parties, third-party and publicly submitted material that are not US Gov works",
+      "attribution": "U.S. Department of Justice, Epstein Library",
+      "notes": "Human-verified 2026-10-31: HTTP 200 (headless Chromium; curl gets an Akamai bot-check interstitial, so reachability.headless is needed). The page is titled \"Epstein Library\" and says: \"This site houses materials responsive under the Epstein Files Transparency Act. This site will be updated if additional documents are identified for release.\" It shows \"Last Updated: September 11, 2026\". The page has a \"Search Full Epstein Library\" box and links to \"DOJ Disclosures, Including Disclosures Under the Epstein Files Transparency Act (H.R. 4405)\" (see doj-epstein-files-transparency-act-disclosures) and to \"House Committee on Oversight and Government Reform Disclosures\" (see house-oversight-epstein-doj-records). A search caveat says portions \"may not be electronically searchable or may produce unreliable search results\".\nLegal authority: the Epstein Files Transparency Act, cited on the page as H.R. 4405 and in DOJ's Attorney Review Protocol memo (4 Jan 2026) as \"Pub. L. 119-38, 139 Stat. 656\". DOJ's 19 Dec 2025 letter to Congress says it was signed on 19 Nov 2025. Release dates, per DOJ letters and press release: 19 Dec 2025 (\"hundreds of thousands of pages\"), and 30 Jan 2026, when DOJ published \"over 3 million additional pages\", including \"more than 2,000 videos and 180,000 images\", for a total of \"nearly 3.5 million pages\" (press release 26-84). A Section 3 report to Congress followed on 14 Feb 2026. DOJ also says the review process involved court orders unsealing grand-jury and protected material in S.D. Fla. and S.D.N.Y.\nRedaction policy, quoted from the page: \"all reasonable efforts have been made to review and redact personal information pertaining to victims, other private individuals, and protect sensitive materials from disclosure ... this website may nevertheless contain information that inadvertently includes non-public personally identifiable information\". Errors are reported to EFTA@usdoj.gov. The 19 Dec 2025 letter lists the Act's withholding categories: victim PII, CSAM, active investigations, depictions of death or injury, and classified information. Because DOJ says it will correct inadvertent disclosures, files may be re-redacted or withdrawn in place.\nLicence checked 2026-10-31: https://www.justice.gov/legalpolicies says \"Unless otherwise indicated, information on Department of Justice websites is in the public domain\" but also \"If a source other than the Department of Justice or other federal government agency is indicated ... permission to copy these materials must be obtained from the original source.\" This is a site-wide policy, not a data-specific licence, and much of the library is non-DOJ material. Bulk download, total file count and per-file formats beyond the PDF, MP4 and WAV files I saw were not checked.\n"
     },
     {
       "id": "eurostat-crime-and-criminal-justice-database",
