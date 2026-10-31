@@ -1,9 +1,9 @@
 {
   "name": "Justice Almanac",
   "description": "An open, versioned index of public justice and criminal-justice data.",
-  "count": 5,
+  "count": 6,
   "by_status": {
-    "live": 5
+    "live": 6
   },
   "entries": [
     {
@@ -155,6 +155,57 @@
       "license": "public-domain (US Gov work)",
       "attribution": "FBI Uniform Crime Reporting Program, Crime Data Explorer",
       "notes": "Human-verified 2026-10-31: HTTP 200; the root redirects to /LATEST/webapp/#/pages/home and only renders with JavaScript. In headless Chromium, the Documents & Downloads page offers CSV downloads (\"Incident-based data by state, summary data estimates, and data about other specific topics\") and says \"Data are also available via the Crime Data API\". It notes the UCR Program provided updated 2025 data in August 2026. The API's auth terms were not confirmed. Agency participation in NIBRS varies by year, so coverage is uneven; that comes from FBI's own documentation and is not stated on the pages checked.\n"
+    },
+    {
+      "id": "fjc-integrated-database",
+      "type": "dataset",
+      "title": "Federal Judicial Center Integrated Database (IDB)",
+      "description": "Case-level data on civil case and criminal defendant filings and terminations in the U.S. district courts, plus bankruptcy and appellate court cases, maintained by the Federal Judicial Center with the Administrative Office of the U.S. Courts.\n",
+      "publisher": "Federal Judicial Center (FJC)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "federal-courts",
+        "civil-cases",
+        "criminal-cases",
+        "bankruptcy",
+        "appeals"
+      ],
+      "source": {
+        "canonical_url": "https://www.fjc.gov/research/idb"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "sas"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (federal district, bankruptcy, and appellate courts)",
+        "temporal": "1970-present",
+        "cadence": "irregular"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "Federal Judicial Center, Integrated Database",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page says the FJC, \"under a working arrangement with the Administrative Office of the U.S. Courts (AOUSC)\", provides public access to the IDB, which holds civil and criminal district-court filings and terminations plus bankruptcy and appellate case information \"from 1970 to the present\". Download formats and the update cadence weren't checked; cadence is recorded as irregular until a steward confirms it.\n"
     },
     {
       "id": "unodc-data-portal",
