@@ -1,11 +1,60 @@
 {
   "name": "Justice Almanac",
   "description": "An open, versioned index of public justice and criminal-justice data.",
-  "count": 2,
+  "count": 3,
   "by_status": {
-    "live": 2
+    "live": 3
   },
   "entries": [
+    {
+      "id": "bjs-national-crime-victimization-survey",
+      "type": "dataset",
+      "title": "BJS National Crime Victimization Survey (NCVS)",
+      "description": "The nation's primary source of information on criminal victimization — a nationally representative household survey on the frequency, characteristics, and consequences of nonfatal personal and household property crimes, including crimes not reported to police.\n",
+      "publisher": "U.S. Department of Justice, Bureau of Justice Statistics (BJS)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "victimization",
+        "survey",
+        "crime",
+        "unreported-crime"
+      ],
+      "source": {
+        "canonical_url": "https://bjs.ojp.gov/data-collection/ncvs"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (national; limited subnational estimates)",
+        "temporal": "1973-2024",
+        "cadence": "annual"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "Bureau of Justice Statistics, National Crime Victimization Survey",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page calls the NCVS \"the nation's primary source of information on criminal victimization\", with a yearly sample of \"about 240,000 persons in about 150,000 households\", and gives the collection period as 1973 – 2024. Public-use microdata is usually archived at ICPSR's National Archive of Criminal Justice Data (NACJD), which returned 403 to curl this session and was not checked. BJS's own data tools publish aggregate tables. The csv format is assumed, not checked.\n"
+    },
     {
       "id": "fbi-crime-data-explorer",
       "type": "dataset",
