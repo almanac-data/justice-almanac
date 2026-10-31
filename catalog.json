@@ -1,9 +1,9 @@
 {
   "name": "Justice Almanac",
   "description": "An open, versioned index of public justice and criminal-justice data.",
-  "count": 6,
+  "count": 7,
   "by_status": {
-    "live": 6
+    "live": 7
   },
   "entries": [
     {
@@ -206,6 +206,58 @@
       "license": "public-domain (US Gov work)",
       "attribution": "Federal Judicial Center, Integrated Database",
       "notes": "Human-verified 2026-10-31: HTTP 200. The page says the FJC, \"under a working arrangement with the Administrative Office of the U.S. Courts (AOUSC)\", provides public access to the IDB, which holds civil and criminal district-court filings and terminations plus bankruptcy and appellate case information \"from 1970 to the present\". Download formats and the update cadence weren't checked; cadence is recorded as irregular until a steward confirms it.\n"
+    },
+    {
+      "id": "uk-data-police-uk",
+      "type": "dataset",
+      "title": "data.police.uk — Crime and Policing Open Data",
+      "description": "Open street-level crime, outcome, and stop-and-search data for England, Wales, and Northern Ireland, plus police force and neighbourhood information and police annual data requirement (ADR) returns, available as CSV downloads and an API.\n",
+      "publisher": "Home Office (United Kingdom), with police forces of England, Wales, and Northern Ireland",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "GB"
+      },
+      "topics": [
+        "crime",
+        "stop-and-search",
+        "policing",
+        "street-level",
+        "uk"
+      ],
+      "source": {
+        "canonical_url": "https://data.police.uk/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "json"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "England, Wales, and Northern Ireland (street level, anonymised locations)",
+        "temporal": "rolling archive of recent years",
+        "cadence": "monthly"
+      },
+      "license": "OGL-UK-3.0 (Open Government Licence v3.0)",
+      "attribution": "data.police.uk, contains public sector information licensed under the Open Government Licence v3.0",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The site calls itself \"the site for open data about crime and policing in England, Wales and Northern Ireland\", with street-level crime, outcome, and stop-and-search downloads in CSV and an API. It states \"All the data on this site is made available under the Open Government Licence v3.0\". Several things come from the site's usual description and were not checked here: that the Home Office is the publisher, the monthly cadence, the rolling archive span, and json from the API.\n"
     },
     {
       "id": "unodc-data-portal",
