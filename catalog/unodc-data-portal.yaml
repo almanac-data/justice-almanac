@@ -41,7 +41,8 @@ coverage:
   spatial: global (UN member states)
   temporal: 1990-present (indicator-dependent)
   cadence: annual
-license: CC-BY-3.0 IGO (UN terms of use)
+license: unverified — data.unodc.org states no data licence; its footer links only the UN website terms (personal, non-commercial use); no Creative Commons licence found
 attribution: UNODC, Data Portal
 notes: |
   Verified reachable this session (HTTP 200, redirects to data.unodc.org). Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.
+  Licence checked 2026-10-31: the earlier CC-BY-3.0 IGO label is not supported. data.unodc.org states no data licence; its footer links the UN copyright page (https://www.un.org/en/about-us/copyright) and UNODC's legal notice (https://www.unodc.org/unodc/legal.html), which allows downloading and copying "for the User's personal, non-commercial use, without any right to resell or redistribute them or to compile or create derivative works therefrom". That is a website-content licence, not a stated data licence. An older dataUNODC terms page, seen only in a search snippet, said the data "may be copied freely, duplicated, and further distributed provided that UNODC is cited as the reference"; it now redirects to the portal home and could not be read.
