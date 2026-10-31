@@ -28,9 +28,11 @@ status_since: '2026-10-31'
 status_source: curator
 observed:
   checked: '2026-10-31'
-  reachable: null
-  http_status: null
-  final_url: null
+  reachable: true
+  http_status: 200
+  final_url: https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States (S.D.N.Y., federal criminal case)
   temporal: docket filed 2020-06-29; filings through 2026
