@@ -42,9 +42,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://bjs.ojp.gov/data-collection/ncvs",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (national; limited subnational estimates)",
@@ -92,9 +94,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://bjs.ojp.gov/data-collection/national-prisoner-statistics-nps",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (national and state level; federal system)",
@@ -140,9 +144,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.justice.gov/opa/pr/attorney-general-pamela-bondi-releases-first-phase-declassified-epstein-files",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States",
@@ -192,9 +198,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.justice.gov/epstein/doj-disclosures",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (federal courts in S.D.N.Y., S.D. Fla., D.N.H., 2d Cir. and U.S. Supreme Court; Florida 15th Judicial Circuit and Florida Supreme Court; U.S. Virgin Islands Superior Court)",
@@ -243,9 +251,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.justice.gov/epstein",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (federal investigations and prosecutions; records from New York, Florida and other jurisdictions)",
@@ -291,9 +301,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://oig.justice.gov/reports/investigation-and-review-federal-bureau-prisons-custody-care-and-supervision-jeffrey",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (MCC New York, New York)",
@@ -340,9 +352,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.justice.gov/opr/page/file/1336471/dl",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (Southern District of Florida)",
@@ -393,9 +407,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://ec.europa.eu/eurostat/web/crime/database",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "EU member states (plus some EFTA and candidate countries)",
@@ -444,9 +460,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
+        "reachable": false,
         "http_status": null,
-        "final_url": null
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (national, state, and reporting-agency level)",
@@ -492,9 +510,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://vault.fbi.gov/records-regarding-the-review-of-the-investigative-holdings-related-to-jeffrey-epstein",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States",
@@ -540,9 +560,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://vault.fbi.gov/jeffrey-epstein",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States",
@@ -591,9 +613,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.fjc.gov/research/idb",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (federal district, bankruptcy, and appellate courts)",
@@ -640,9 +664,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (S.D.N.Y., federal civil case)",
@@ -689,9 +715,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (S.D.N.Y., federal criminal case)",
@@ -741,9 +769,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://data.police.uk/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "England, Wales, and Northern Ireland (street level, anonymised locations)",
@@ -792,7 +822,7 @@
       "status_since": "2026-07-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-08-23",
+        "checked": "2026-10-31",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://data.unodc.org/",
@@ -847,9 +877,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.ussc.gov/research/datafiles/commission-datafiles",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (federal district courts)",
