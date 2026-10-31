@@ -1,11 +1,161 @@
 {
   "name": "Justice Almanac",
   "description": "An open, versioned index of public justice and criminal-justice data.",
-  "count": 2,
+  "count": 6,
   "by_status": {
-    "live": 2
+    "live": 6
   },
   "entries": [
+    {
+      "id": "bjs-national-crime-victimization-survey",
+      "type": "dataset",
+      "title": "BJS National Crime Victimization Survey (NCVS)",
+      "description": "The nation's primary source of information on criminal victimization — a nationally representative household survey on the frequency, characteristics, and consequences of nonfatal personal and household property crimes, including crimes not reported to police.\n",
+      "publisher": "U.S. Department of Justice, Bureau of Justice Statistics (BJS)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "victimization",
+        "survey",
+        "crime",
+        "unreported-crime"
+      ],
+      "source": {
+        "canonical_url": "https://bjs.ojp.gov/data-collection/ncvs"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (national; limited subnational estimates)",
+        "temporal": "1973-2024",
+        "cadence": "annual"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "Bureau of Justice Statistics, National Crime Victimization Survey",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page calls the NCVS \"the nation's primary source of information on criminal victimization\", with a yearly sample of \"about 240,000 persons in about 150,000 households\", and gives the collection period as 1973 – 2024. Public-use microdata is usually archived at ICPSR's National Archive of Criminal Justice Data (NACJD), which returned 403 to curl this session and was not checked. BJS's own data tools publish aggregate tables. The csv format is assumed, not checked.\n"
+    },
+    {
+      "id": "bjs-national-prisoner-statistics",
+      "type": "dataset",
+      "title": "BJS National Prisoner Statistics (NPS)",
+      "description": "BJS's annual national- and state-level counts of prisoners held in state and federal prison facilities, the basis of the annual Prisoners report series.\n",
+      "publisher": "U.S. Department of Justice, Bureau of Justice Statistics (BJS)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "incarceration",
+        "prisons",
+        "corrections",
+        "state-level"
+      ],
+      "source": {
+        "canonical_url": "https://bjs.ojp.gov/data-collection/national-prisoner-statistics-nps"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "pdf"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (national and state level; federal system)",
+        "temporal": "1926-present (latest data available 2023)",
+        "cadence": "annual"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "Bureau of Justice Statistics, National Prisoner Statistics program",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The cataloged URL is where the old ...-nps-program URL redirects. The page shows Status: Active, Frequency: Annual, Latest Data Available: 2023, Collection Period: 1926-present, and describes \"annual national- and state-level data on the number of prisoners in state and federal prison facilities\". The formats are assumed from the BJS report and data-table distribution, not checked.\n"
+    },
+    {
+      "id": "fbi-crime-data-explorer",
+      "type": "dataset",
+      "title": "FBI Crime Data Explorer (UCR / NIBRS)",
+      "description": "The FBI's portal for Uniform Crime Reporting Program data — incident-based NIBRS crime data, summary estimates, arrests, hate crime, expanded homicide, and law-enforcement employee data — at national, state, and agency level.\n",
+      "publisher": "U.S. Department of Justice, Federal Bureau of Investigation (FBI), Criminal Justice Information Services Division",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "crime",
+        "nibrs",
+        "arrests",
+        "hate-crime",
+        "agency-level"
+      ],
+      "source": {
+        "canonical_url": "https://cde.ucr.cjis.gov/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": "The Crime Data API is referenced from the downloads page; its key requirements were not checked.",
+        "rate_limit": null
+      },
+      "format": [
+        "csv"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (national, state, and reporting-agency level)",
+        "temporal": "varies by collection",
+        "cadence": "annual"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "FBI Uniform Crime Reporting Program, Crime Data Explorer",
+      "notes": "Human-verified 2026-10-31: HTTP 200; the root redirects to /LATEST/webapp/#/pages/home and only renders with JavaScript. In headless Chromium, the Documents & Downloads page offers CSV downloads (\"Incident-based data by state, summary data estimates, and data about other specific topics\") and says \"Data are also available via the Crime Data API\". It notes the UCR Program provided updated 2025 data in August 2026. The API's auth terms were not confirmed. Agency participation in NIBRS varies by year, so coverage is uneven; that comes from FBI's own documentation and is not stated on the pages checked.\n"
+    },
     {
       "id": "fjc-integrated-database",
       "type": "dataset",
@@ -112,6 +262,56 @@
       "license": "CC-BY-3.0 IGO (UN terms of use)",
       "attribution": "UNODC, Data Portal",
       "notes": "Verified reachable this session (HTTP 200, redirects to data.unodc.org). Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.\n"
+    },
+    {
+      "id": "ussc-commission-datafiles",
+      "type": "dataset",
+      "title": "U.S. Sentencing Commission Datafiles",
+      "description": "The Sentencing Commission's annual case-level datafiles on sentences imposed in federal criminal cases — individual offenders, organizational defendants, and special collections — with identifiers removed, for quantitative research on federal sentencing.\n",
+      "publisher": "United States Sentencing Commission (USSC)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "sentencing",
+        "federal-courts",
+        "case-level",
+        "criminal-justice"
+      ],
+      "source": {
+        "canonical_url": "https://www.ussc.gov/research/datafiles/commission-datafiles"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "sas",
+        "spss"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (federal district courts)",
+        "temporal": "multiple fiscal years",
+        "cadence": "annual"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "United States Sentencing Commission, Commission Datafiles",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page describes the datafiles as excluding identifiers and providing \"fiscal year data for researchers interested in studying federal sentencing practices\". It lists Individuals, Organizations, Special Collections, and Special Reports datafiles, and says they are also distributed through ICPSR. The SAS/SPSS formats come from the Commission's usual distribution and were not checked file by file. The USSC is an independent agency in the judicial branch.\n"
     }
   ]
 }
