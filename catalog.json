@@ -1,9 +1,9 @@
 {
   "name": "Justice Almanac",
   "description": "An open, versioned index of public justice and criminal-justice data.",
-  "count": 8,
+  "count": 9,
   "by_status": {
-    "live": 8
+    "live": 9
   },
   "entries": [
     {
@@ -104,6 +104,54 @@
       "license": "public-domain (US Gov work)",
       "attribution": "Bureau of Justice Statistics, National Prisoner Statistics program",
       "notes": "Human-verified 2026-10-31: HTTP 200. The cataloged URL is where the old ...-nps-program URL redirects. The page shows Status: Active, Frequency: Annual, Latest Data Available: 2023, Collection Period: 1926-present, and describes \"annual national- and state-level data on the number of prisoners in state and federal prison facilities\". The formats are assumed from the BJS report and data-table distribution, not checked.\n"
+    },
+    {
+      "id": "doj-epstein-files-phase-1-2025",
+      "type": "document",
+      "title": "DOJ: First Phase of Declassified Epstein Files (27 February 2025)",
+      "description": "The Department of Justice and FBI's February 2025 release of the \"first phase\" of declassified Epstein files: an evidence list, flight logs previously released in U.S. v. Maxwell, and two redacted documents. DOJ said this material \"largely contains documents that have been previously leaked but never released in a formal capacity by the U.S. Government\".\n",
+      "publisher": "U.S. Department of Justice, Office of the Attorney General (with the Federal Bureau of Investigation)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "federal-records-release",
+        "declassification",
+        "victim-privacy-redaction"
+      ],
+      "collection": "epstein-records",
+      "source": {
+        "canonical_url": "https://www.justice.gov/opa/pr/attorney-general-pamela-bondi-releases-first-phase-declassified-epstein-files"
+      },
+      "access": {
+        "method": [
+          "web"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "pdf"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States",
+        "temporal": "not stated",
+        "cadence": "irregular"
+      },
+      "license": "public-domain (US Gov work) for the DOJ press release and letter; unverified for the attached records, which include material originally produced in U.S. v. Maxwell",
+      "attribution": "U.S. Department of Justice, Office of Public Affairs, press release 25-201",
+      "notes": "Human-verified 2026-10-31: HTTP 200 (headless Chromium; justice.gov serves curl a bot-check interstitial). The release is titled \"Attorney General Pamela Bondi Releases First Phase of Declassified Epstein Files\" and dated Thursday, February 27, 2025, as press release number 25-201 (\"Updated February 27, 2025\"). It says the Attorney General, \"in conjunction with the Federal Bureau of Investigation (FBI), declassified and publicly released files\", and that DOJ \"intends to release the remaining documents upon review and redaction to protect the identities of Epstein's victims\".\nLinked files (all on justice.gov/ag/media/<id>/dl):\n- the AG's letter (1391331)\n- \"A. Evidence List\" (1391271)\n- \"B. Flight Log_Released in U.S. v. Maxwell\" plus Parts 1-6\n- \"C. Contact Book_Redacted\" (1391321, about 19.4 MB)\n- \"D. Masseuse List_Redacted\" (1391326)\nSampled files returned HTTP 200 application/pdf, with Last-Modified dates of 28 Feb 2025.\nThe stated authority is declassification by the AG with the FBI. This release predates the Epstein Files Transparency Act. The Epstein Library now also lists this material as \"First Phase of Declassified Epstein Files\" under DOJ Disclosures (https://www.justice.gov/epstein/doj-disclosures/first-phase-declassified-epstein-files), as four EFTA-renumbered PDFs (EFTA02846457 to EFTA02846673). The original press-release attachments and the library copies could diverge, so both URLs are worth watching.\nRedaction: two attachments are labelled \"_Redacted\". No further redaction policy is stated on the release page.\nLicence checked 2026-10-31: https://www.justice.gov/legalpolicies says \"Unless otherwise indicated, information on Department of Justice websites is in the public domain\". That is site-wide, and the attached records were not created by DOJ itself, so their status is unverified. I did not check the contents of the attachments.\n"
     },
     {
       "id": "eurostat-crime-and-criminal-justice-database",
