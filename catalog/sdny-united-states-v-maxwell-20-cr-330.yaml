@@ -1,0 +1,44 @@
+id: sdny-united-states-v-maxwell-20-cr-330
+type: document
+title: United States v. Maxwell, No. 1:20-cr-00330 (S.D.N.Y.) — criminal docket
+description: |
+  The federal criminal docket for United States v. Maxwell in the Southern District of New York, including the court's 2025-2026 rulings on DOJ motions to unseal grand-jury and discovery material under the Epstein Files Transparency Act.
+publisher: U.S. District Court for the Southern District of New York (docket accessed via CourtListener / RECAP, Free Law Project)
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- court-records
+- federal-prosecution
+- unsealing
+- epstein-files-transparency-act
+collection: epstein-records
+source:
+  canonical_url: https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/
+access:
+  method:
+  - web
+  auth_required: false
+  auth_note: CourtListener copies are free; the official PACER docket requires a PACER account and per-page fees.
+  rate_limit: null
+format:
+- pdf
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: United States (S.D.N.Y., federal criminal case)
+  temporal: docket filed 2020-06-29; filings through 2026
+  cadence: irregular
+license: unverified — court records; court orders are government works, filings and exhibits by parties are not; public access under court order
+attribution: U.S. District Court for the Southern District of New York, No. 1:20-cr-00330; docket copy via CourtListener (Free Law Project)
+notes: |
+  Human-verified 2026-10-31: HTTP 200 with a browser User-Agent (a plain curl User-Agent gets 403). CourtListener shows "United States v. Maxwell, 1:20-cr-00330", "Date Filed: June 29, 2020", "Date Terminated: June 29, 2022", "Date of Last Known Filing: Oct. 22, 2026". CourtListener reproduces PACER filings verbatim and is used here as the access point. The court publishes selected rulings, but I found no S.D.N.Y. page for the trial record or trial exhibits.
+  Court-hosted rulings: the S.D.N.Y. "Rulings of Special Interest" list (https://www.nysd.uscourts.gov/cases/rulings-of-special-interest, HTTP 200) has 20-cr-330 entries dated August 11th, 2025 (denying DOJ's motion to release grand-jury material), December 9th, 2025 (an opinion on a motion under the Epstein Files Transparency Act), and January 21st, 2026. Each links a PDF on nysd.uscourts.gov, and all three returned HTTP 200. Older 2021 trial-period orders also remain at nysd.uscourts.gov/sites/default/files/sites/default/files/pdf/cases_special_interest/20-cr-00330/.
+  DOJ copy: the Epstein Library has a per-case page "United States v. Maxwell, No. 1:20-cr-00330 (S.D.N.Y. 2020)" (https://www.justice.gov/epstein/doj-disclosures/court-records-united-states-v-maxwell-no-120-cr-00330-sdny-2020). It has paginated EFTA-numbered PDFs plus DOJ "multimedia/Court Records" copies of docket entries, with DOJ redactions. DOJ's 30 Jan 2026 letter says S.D.N.Y. material was produced under a court order requiring certification that victim-identifying information was protected.
+  Licence checked 2026-10-31: no licence is stated. Not checked: whether admitted trial exhibits are on the public docket, and the exhibit count. The trial record was searched for on the court's site and not found.
