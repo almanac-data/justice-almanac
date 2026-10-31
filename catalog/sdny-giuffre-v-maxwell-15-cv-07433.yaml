@@ -1,0 +1,45 @@
+id: sdny-giuffre-v-maxwell-15-cv-07433
+type: document
+title: Giuffre v. Maxwell, No. 1:15-cv-07433 (S.D.N.Y.) — docket and records unsealed January 2024
+description: |
+  The federal civil docket in the Southern District of New York in which the court ordered records unsealed after a document-by-document review. The parties began filing the unsealed records on the public docket on 3 January 2024.
+publisher: U.S. District Court for the Southern District of New York (docket accessed via CourtListener / RECAP, Free Law Project)
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- court-records
+- civil-litigation
+- unsealing
+- victim-privacy-redaction
+collection: epstein-records
+source:
+  canonical_url: https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/
+access:
+  method:
+  - web
+  auth_required: false
+  auth_note: CourtListener copies are free; the official PACER docket requires a PACER account and per-page fees.
+  rate_limit: null
+format:
+- pdf
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: United States (S.D.N.Y., federal civil case)
+  temporal: docket filed 2015-09-21; unsealing filings from 2024-01-03
+  cadence: irregular
+license: unverified — court records; filings by parties are not US Gov works; public access under court unsealing orders
+attribution: U.S. District Court for the Southern District of New York, No. 1:15-cv-07433; docket copy via CourtListener (Free Law Project)
+notes: |
+  Human-verified 2026-10-31: HTTP 200 with a browser User-Agent (a plain curl User-Agent gets 403). CourtListener reproduces the PACER docket verbatim. It is used as canonical_url only because the S.D.N.Y. court has no public case page for this docket: its "Rulings of Special Interest" list (https://www.nysd.uscourts.gov/cases/rulings-of-special-interest) has no entry for 15-cv-07433. The official record is the PACER docket. CourtListener shows the current caption "Ian Torrington Blatchford, as interim administrator of Virginia Giuffre's Estate v. Maxwell", "Date Filed: Sept. 21, 2015", "Date Terminated: May 25, 2017", "Date of Last Known Filing: Sept. 3, 2026".
+  Court order: the court's own site hosts the 3 January 2024 order (https://nysd.uscourts.gov/sites/default/files/2024-01/15cv7433%2001032023%20115pm%20(1).pdf, HTTP 200; the filename says 2023 but the order is "Dated: January 3, 2024"). It says the court entered an order on "December 18, 2023 ... following a particularized review of the documents", stayed for fourteen days, and that "the parties have informed the Court that they will begin filing the unsealed records outlined in this Court's December 18 Order later today". Documents relating to two Does were held back pending further determination.
+  Redaction: unsealing was decided document by document. Material relating to Does whose objections were pending stayed sealed. No global redaction statement is shown.
+  A second official copy exists: DOJ's Epstein Library has a per-case page captioned "[redacted] v. Maxwell, No. 1:15-cv-07433 (S.D.N.Y. 2015)" (https://www.justice.gov/epstein/doj-disclosures/court-records-v-maxwell-no-115-cv-07433-sdny-2015). It has paginated EFTA-numbered PDFs with DOJ's own redactions applied.
+  Licence checked 2026-10-31: no licence is stated on the docket or the order. Court opinions and orders are government works, but party filings and exhibits are not. Not checked: number of unsealed documents, docket entry range, and CourtListener's completeness against PACER.
