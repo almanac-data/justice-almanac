@@ -28,6 +28,14 @@ format:
 status: live
 status_since: '2026-10-31'
 status_source: curator
+fingerprint:
+  sha256: null
+  etag: null
+  content_length: null
+  captured: '2026-10-31'
+  algo: sha256
+  lead_hash: 1cb92d9e8bdd6e5872780eac6c0287778488cb01d7637b391418145d450413d1
+  lead_algo: sha256
 observed:
   checked: '2026-10-31'
   reachable: true

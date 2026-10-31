@@ -33,6 +33,13 @@ observed:
   final_url: https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261015155819/https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-10-15'
+  notes: Wayback capture made while the resource was live.
 coverage:
   spatial: United States (S.D.N.Y., federal civil case)
   temporal: docket filed 2015-09-21; unsealing filings from 2024-01-03

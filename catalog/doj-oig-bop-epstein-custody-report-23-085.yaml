@@ -25,6 +25,14 @@ format:
 status: live
 status_since: '2026-10-31'
 status_source: curator
+fingerprint:
+  sha256: null
+  etag: null
+  content_length: null
+  captured: '2026-10-31'
+  algo: sha256
+  lead_hash: 5dd3be68ac4f4f6be981383cd46e2edf3273ae8acb99e333782a81cdc62b4994
+  lead_algo: sha256
 observed:
   checked: '2026-10-31'
   reachable: true
@@ -32,6 +40,13 @@ observed:
   final_url: https://oig.justice.gov/reports/investigation-and-review-federal-bureau-prisons-custody-care-and-supervision-jeffrey
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261027111250/https://oig.justice.gov/reports/investigation-and-review-federal-bureau-prisons-custody-care-and-supervision-jeffrey
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-10-27'
+  notes: Wayback capture made while the resource was live.
 coverage:
   spatial: United States (MCC New York, New York)
   temporal: 2019 (period of custody reviewed); report posted 2023-06-27

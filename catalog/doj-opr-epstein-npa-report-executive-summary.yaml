@@ -26,6 +26,14 @@ format:
 status: live
 status_since: '2026-10-31'
 status_source: curator
+fingerprint:
+  sha256: 5e5b05fe66213d4b8cd5fac23ffe8ccccd9b7804d4037c221ad533329c54777a
+  etag: null
+  content_length: 289140
+  captured: '2026-10-31'
+  algo: sha256
+  lead_hash: 7a4a6c09c2f1ef1f19d59ff97dfaa3474791520016a426f9de245a8fa6189ea0
+  lead_algo: sha256
 observed:
   checked: '2026-10-31'
   reachable: true
