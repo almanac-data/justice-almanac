@@ -1,9 +1,9 @@
 {
   "name": "Justice Almanac",
   "description": "An open, versioned index of public justice and criminal-justice data.",
-  "count": 18,
+  "count": 19,
   "by_status": {
-    "live": 18
+    "live": 19
   },
   "entries": [
     {
@@ -790,6 +790,54 @@
       "license": "public-domain (US Gov work)",
       "attribution": "Federal Judicial Center, Integrated Database",
       "notes": "Human-verified 2026-10-31: HTTP 200. The page says the FJC, \"under a working arrangement with the Administrative Office of the U.S. Courts (AOUSC)\", provides public access to the IDB, which holds civil and criminal district-court filings and terminations plus bankruptcy and appellate case information \"from 1970 to the present\". Download formats and the update cadence weren't checked; cadence is recorded as irregular until a steward confirms it.\n"
+    },
+    {
+      "id": "ncsc-court-statistics-project",
+      "type": "dataset",
+      "title": "NCSC Court Statistics Project (state court caseloads)",
+      "description": "Annual, comparable caseload statistics for US state trial and appellate courts (civil, criminal, domestic relations, juvenile and traffic filings, pending and disposed cases), aggregated from data that state courts submit. It is the standard source for state courts, where most US cases are heard.\n",
+      "publisher": "National Center for State Courts (NCSC), with the Conference of State Court Administrators (COSCA)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "state-courts",
+        "caseloads",
+        "courts",
+        "united-states"
+      ],
+      "source": {
+        "canonical_url": "https://www.ncsc.org/explore-court-caseload-data"
+      },
+      "access": {
+        "method": [
+          "web"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "tableau"
+      ],
+      "status": "live",
+      "status_since": "2026-11-01",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-11-01",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (state trial and appellate courts, by state)",
+        "temporal": "not stated on the page (2024 filings latest shown; a civil trends dashboard covers 2018-2022)",
+        "cadence": "annual"
+      },
+      "license": "unverified — no terms of use or data licence found; the NCSC site footer says \"Copyright © 2026 National Center for State Courts\"",
+      "attribution": "National Center for State Courts, Court Statistics Project",
+      "notes": "Human-verified 2026-11-01: HTTP 200 (curl with a browser User-Agent and headless Chromium). The issue's URL, https://www.courtstatistics.org/, answers HTTP 302 to https://www.ncsc.org/resources-courts/data, a general NCSC data page (\"70M 2024 state court filings\", \"4% change from 2023\"); this entry uses the page that page links as \"Explore caseload data\", which holds the dashboards themselves. That page says: \"We aggregate annual caseload data from states to create this one-of-a-kind resource for understanding the trends shaping our judiciary system\", and links Tableau dashboards on tableau.ncsc.org for trial courts (overview, civil, criminal, domestic relations, juvenile, traffic) and appellate courts, built on the State Court Guide to Statistical Reporting. The Court Statistics Project page (https://www.ncsc.org/our-centers-projects/court-statistics-project) calls CSP \"a collaborative initiative of NCSC and the Conference of State Court Administrators (COSCA)\" that \"collects, analyzes, and publishes caseload data from state courts\". NCSC is an independent non-profit, not a government body, so jurisdiction.scope national is used loosely. I did not open the Tableau dashboards or check whether they allow data export, and I found no bulk download.\nLicence checked 2026-11-01: not verified. I found no terms-of-use page (www.ncsc.org/terms-of-use, /terms-and-conditions, /terms and /copyright all return 404), and the privacy policy and CSP page carry only the footer \"Copyright © 2026 National Center for State Courts\". That is a site-wide copyright notice, not a data licence, so no reuse terms are asserted. The underlying figures are reported by state courts.\n"
     },
     {
       "id": "sdny-giuffre-v-maxwell-15-cv-07433",
