@@ -34,6 +34,13 @@ observed:
   final_url: https://bjs.ojp.gov/data-collection/national-prisoner-statistics-nps
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20260920054725/https://bjs.ojp.gov/data-collection/national-prisoner-statistics-nps
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-09-20'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-01: the newest existing capture (Save Page Now returned 0).'
 coverage:
   spatial: United States (national and state level; federal system)
   temporal: 1926-present (latest data available 2023)
