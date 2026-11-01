@@ -48,6 +48,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261101001338/https://bjs.ojp.gov/data-collection/ncvs",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-01",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-01: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States (national; limited subnational estimates)",
         "temporal": "1973-2024",
@@ -100,6 +110,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20260920054725/https://bjs.ojp.gov/data-collection/national-prisoner-statistics-nps",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-09-20",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-01: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "United States (national and state level; federal system)",
         "temporal": "1926-present (latest data available 2023)",
