@@ -34,7 +34,7 @@ fingerprint:
   lead_hash: cc53c5c2d274844cc0941a04fc113ff2872e79bd8c1cd6934f71c750ecc4d003
   lead_algo: sha256
 observed:
-  checked: '2026-10-31'
+  checked: '2026-11-01'
   reachable: true
   http_status: 200
   final_url: https://www.justice.gov/opa/pr/attorney-general-pamela-bondi-releases-first-phase-declassified-epstein-files

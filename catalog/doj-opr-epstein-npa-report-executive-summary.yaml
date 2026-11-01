@@ -35,12 +35,12 @@ fingerprint:
   lead_hash: 7a4a6c09c2f1ef1f19d59ff97dfaa3474791520016a426f9de245a8fa6189ea0
   lead_algo: sha256
 observed:
-  checked: '2026-10-31'
+  checked: '2026-11-01'
   reachable: true
   http_status: 200
   final_url: https://www.justice.gov/opr/page/file/1336471/dl
   redirect_chain: []
-  fingerprint_result: no-baseline
+  fingerprint_result: match
 coverage:
   spatial: United States (Southern District of Florida)
   temporal: 2006-2008 investigation (report dated November 2020)
