@@ -1,9 +1,9 @@
 {
   "name": "Justice Almanac",
   "description": "An open, versioned index of public justice and criminal-justice data.",
-  "count": 17,
+  "count": 18,
   "by_status": {
-    "live": 17
+    "live": 18
   },
   "entries": [
     {
@@ -569,6 +569,54 @@
       "license": "public-domain (US Gov work)",
       "attribution": "FBI Uniform Crime Reporting Program, Crime Data Explorer",
       "notes": "Human-verified 2026-10-31: HTTP 200; the root redirects to /LATEST/webapp/#/pages/home and only renders with JavaScript. In headless Chromium, the Documents & Downloads page offers CSV downloads (\"Incident-based data by state, summary data estimates, and data about other specific topics\") and says \"Data are also available via the Crime Data API\". It notes the UCR Program provided updated 2025 data in August 2026. The API's auth terms were not confirmed. Agency participation in NIBRS varies by year, so coverage is uneven; that comes from FBI's own documentation and is not stated on the pages checked.\n"
+    },
+    {
+      "id": "fbi-national-use-of-force-data-collection",
+      "type": "dataset",
+      "title": "FBI National Use-of-Force Data Collection",
+      "description": "The FBI's national collection of law enforcement use-of-force incidents, accepting data since 1 January 2019 and published through the Crime Data Explorer as participation counts and aggregate statistics on incidents, subjects and officers. Participation is voluntary and uneven, which the FBI reports alongside the data.\n",
+      "publisher": "U.S. Federal Bureau of Investigation (FBI), Uniform Crime Reporting Program",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "use-of-force",
+        "policing",
+        "law-enforcement",
+        "united-states"
+      ],
+      "source": {
+        "canonical_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/le/uof"
+      },
+      "access": {
+        "method": [
+          "web"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv"
+      ],
+      "status": "live",
+      "status_since": "2026-11-01",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-11-01",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (national; federal, state, local and tribal agencies)",
+        "temporal": "2019 onwards (2026 shown, data as of 14 Oct 2026)",
+        "cadence": "irregular"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "FBI Uniform Crime Reporting Program, National Use-of-Force Data Collection (Crime Data Explorer)",
+      "notes": "Human-verified 2026-11-01: HTTP 200 (plain curl on the Crime Data Explorer; the page is a JavaScript app, so its content was read in headless Chromium). The address is a client-side route of the explorer, so a link check only sees https://cde.ucr.cjis.gov/; see also fbi-crime-data-explorer. The page says: \"In 2026, 11,894 out of 19,671 federal, state, local, and tribal law enforcement agencies throughout the nation participated and provided use-of-force data. The officers employed by these agencies represent 75% of federal, state, local, and tribal sworn officers in the nation\", with \"Data as of: 10/14/2026\". It ranks the most frequent types of force used and resistance encountered, offers downloadable lists of participating agencies, and states: \"The collection officially began accepting data on January 1, 2019.\" It also says the program \"does not assess whether the officers involved in use-of-force incidents acted within the bounds of their respective departmental policies\", and has sections \"Data Considerations\" and \"Avoid Ranking and Comparisons\". The CDE Documents & Downloads page lists no use-of-force bulk file, so the only downloads seen are the participation lists; their CSV format is assumed and was not checked. Earlier years and the FBI's publication thresholds were not checked. The FBI's program page (https://www.fbi.gov/useofforce, which redirects to /how-we-can-help-you/more-fbi-services-and-information/ucr/use-of-force) returned a Cloudflare 403 to curl and headless Chromium.\nLicence checked 2026-11-01: no licence statement was found on the CDE pages read (home, use-of-force, Documents & Downloads), and www.fbi.gov's policy pages were behind Cloudflare. public-domain is asserted from the FBI's status as a federal agency (17 U.S.C. 105), not from an FBI statement. The underlying reports are submitted by state, local and tribal agencies to a federal collection.\n"
     },
     {
       "id": "fbi-vault-epstein-investigative-holdings-review",
