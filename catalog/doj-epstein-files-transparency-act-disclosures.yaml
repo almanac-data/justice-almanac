@@ -38,7 +38,7 @@ fingerprint:
   lead_hash: 11d5d709cfb79d98308544a77432b726bc8b8e90808d96c303a7bdcd571104d6
   lead_algo: sha256
 observed:
-  checked: '2026-10-31'
+  checked: '2026-11-01'
   reachable: true
   http_status: 200
   final_url: https://www.justice.gov/epstein/doj-disclosures

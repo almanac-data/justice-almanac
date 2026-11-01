@@ -41,7 +41,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://bjs.ojp.gov/data-collection/ncvs",
@@ -103,7 +103,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://bjs.ojp.gov/data-collection/national-prisoner-statistics-nps",
@@ -172,7 +172,7 @@
         "lead_algo": "sha256"
       },
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.justice.gov/opa/pr/attorney-general-pamela-bondi-releases-first-phase-declassified-epstein-files",
@@ -245,7 +245,7 @@
         "lead_algo": "sha256"
       },
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.justice.gov/epstein/doj-disclosures",
@@ -317,7 +317,7 @@
         "lead_algo": "sha256"
       },
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.justice.gov/epstein",
@@ -376,7 +376,7 @@
         "lead_algo": "sha256"
       },
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://oig.justice.gov/reports/investigation-and-review-federal-bureau-prisons-custody-care-and-supervision-jeffrey",
@@ -446,12 +446,12 @@
         "lead_algo": "sha256"
       },
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.justice.gov/opr/page/file/1336471/dl",
         "redirect_chain": [],
-        "fingerprint_result": "no-baseline"
+        "fingerprint_result": "match"
       },
       "coverage": {
         "spatial": "United States (Southern District of Florida)",
@@ -501,7 +501,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://ec.europa.eu/eurostat/web/crime/database",
@@ -554,10 +554,10 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": false,
-        "http_status": null,
-        "final_url": null,
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://cde.ucr.cjis.gov/",
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
@@ -605,9 +605,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/le/uof",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (national; federal, state, local and tribal agencies)",
@@ -652,7 +654,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://vault.fbi.gov/records-regarding-the-review-of-the-investigative-holdings-related-to-jeffrey-epstein",
@@ -712,7 +714,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://vault.fbi.gov/jeffrey-epstein",
@@ -775,7 +777,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.fjc.gov/research/idb",
@@ -826,9 +828,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.ncsc.org/explore-court-caseload-data",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (state trial and appellate courts, by state)",
@@ -874,7 +878,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/",
@@ -935,7 +939,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/",
@@ -999,7 +1003,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://data.police.uk/",
@@ -1053,7 +1057,7 @@
       "status_since": "2026-07-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://data.unodc.org/",
@@ -1107,7 +1111,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.ussc.gov/research/datafiles/commission-datafiles",

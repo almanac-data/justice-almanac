@@ -27,9 +27,11 @@ status_since: '2026-11-01'
 status_source: curator
 observed:
   checked: '2026-11-01'
-  reachable: null
-  http_status: null
-  final_url: null
+  reachable: true
+  http_status: 200
+  final_url: https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/le/uof
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States (national; federal, state, local and tribal agencies)
   temporal: 2019 onwards (2026 shown, data as of 14 Oct 2026)
