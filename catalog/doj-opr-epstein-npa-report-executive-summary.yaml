@@ -41,6 +41,13 @@ observed:
   final_url: https://www.justice.gov/opr/page/file/1336471/dl
   redirect_chain: []
   fingerprint_result: match
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261009192408/https://www.justice.gov/opr/page/file/1336471/dl
+  authenticity: hash-verified
+  permission: ok
+  captured: '2026-10-09'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0). Its raw bytes match this entry''s fingerprint.sha256 baseline.'
 coverage:
   spatial: United States (Southern District of Florida)
   temporal: 2006-2008 investigation (report dated November 2020)

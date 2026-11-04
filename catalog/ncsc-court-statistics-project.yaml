@@ -32,6 +32,13 @@ observed:
   final_url: https://www.ncsc.org/explore-court-caseload-data
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20260515200137/https://www.ncsc.org/explore-court-caseload-data
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-05-15'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0).'
 coverage:
   spatial: United States (state trial and appellate courts, by state)
   temporal: not stated on the page (2024 filings latest shown; a civil trends dashboard covers 2018-2022)
