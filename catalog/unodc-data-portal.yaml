@@ -37,6 +37,13 @@ observed:
   redirect_chain:
   - https://data.unodc.org
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20251209195737/https://dataunodc.un.org/
+  authenticity: timestamped
+  permission: ok
+  captured: '2025-12-09'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 200).'
 coverage:
   spatial: global (UN member states)
   temporal: 1990-present (indicator-dependent)

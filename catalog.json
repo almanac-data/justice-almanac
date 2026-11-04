@@ -453,6 +453,16 @@
         "redirect_chain": [],
         "fingerprint_result": "match"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261009192408/https://www.justice.gov/opr/page/file/1336471/dl",
+          "authenticity": "hash-verified",
+          "permission": "ok",
+          "captured": "2026-10-09",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0). Its raw bytes match this entry's fingerprint.sha256 baseline."
+        }
+      ],
       "coverage": {
         "spatial": "United States (Southern District of Florida)",
         "temporal": "2006-2008 investigation (report dated November 2020)",
@@ -508,6 +518,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20260925014808/https://ec.europa.eu/eurostat/web/crime/database",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-09-25",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "EU member states (plus some EFTA and candidate countries)",
         "temporal": "varies by dataset",
@@ -561,6 +581,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261102020007/https://cde.ucr.cjis.gov/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-02",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 200)."
+        }
+      ],
       "coverage": {
         "spatial": "United States (national, state, and reporting-agency level)",
         "temporal": "varies by collection",
@@ -611,6 +641,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261029205040/https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/le/uof",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-10-29",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 200)."
+        }
+      ],
       "coverage": {
         "spatial": "United States (national; federal, state, local and tribal agencies)",
         "temporal": "2019 onwards (2026 shown, data as of 14 Oct 2026)",
@@ -784,6 +824,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104213903/https://www.fjc.gov/research/idb",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States (federal district, bankruptcy, and appellate courts)",
         "temporal": "1970-present",
@@ -834,6 +884,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20260515200137/https://www.ncsc.org/explore-court-caseload-data",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-05-15",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "United States (state trial and appellate courts, by state)",
         "temporal": "not stated on the page (2024 filings latest shown; a civil trends dashboard covers 2018-2022)",
@@ -1010,6 +1070,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261006011315/https://data.police.uk/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-10-06",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 200)."
+        }
+      ],
       "coverage": {
         "spatial": "England, Wales, and Northern Ireland (street level, anonymised locations)",
         "temporal": "rolling archive of recent years",
@@ -1066,6 +1136,16 @@
         ],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20251209195737/https://dataunodc.un.org/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2025-12-09",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 200)."
+        }
+      ],
       "coverage": {
         "spatial": "global (UN member states)",
         "temporal": "1990-present (indicator-dependent)",
@@ -1118,6 +1198,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104215334/https://www.ussc.gov/research/datafiles/commission-datafiles",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States (federal district courts)",
         "temporal": "multiple fiscal years",
