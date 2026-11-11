@@ -324,6 +324,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261111220004/https://www.justice.gov/epstein",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-11",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-11: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States (federal investigations and prosecutions; records from New York, Florida and other jurisdictions)",
         "temporal": "not stated on the page (DOJ's 30 Jan 2026 letter describes the material as spanning \"a period of over twenty years\")",
